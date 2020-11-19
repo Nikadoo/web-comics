@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl_PL">
+<head>
+    <link rel="stylesheet" href="../css/style.css" />
+    <meta charset="iso-8859-2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic form </title>
+</head>
+<body>
+    <header>
+        <h1> Comic books' infomation</h1>
+        <img src="../images/comic1.png" alt="Comic: Y:The last man" width="500" />
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">Strona główna</a></li>
+            <li><a href="">Autorzy</a></li>
+            <li><a href="" class="active">Komiksy</a></li>
+            <li><a href="">Wykonanie</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Dodanie nowego komiksu</h2>
+        <form class="form">
+           
+                <label for="title">Tytuł:<abbr title="required" aria-label="required">*</abbr></label>
+                <input type="text" name="title" id="title" />
+          
+                <label for="yearPublish">Rok pierwszego wydania:<abbr title="required" aria-label="required">*</abbr></label>
+                <input type="number" name="yearPublish" id="yearPublish" />
+           
+           
+                <label for="pageNumber">Liczba stron:</label>
+                <input type="number" name="pageNumber" id="pageNumber" />
+          
+          
+                <label for="publishingHouse">Wydawnictwo:</label>
+                <input type="text" name="publishingHouse" id="publishingHouse" />
+           
+           
+                <input type="submit" class="form-button-submit"  value="Dodaj" />
+                <a href="" class="form-button-cancel">Anuluj</a>
+            
+        </form>
+    </main>
+    <footer>
+        Dominika Ługowska s17226
+    </footer>
+
+
+</body>
+</html>
